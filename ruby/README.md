@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://smartproxy.com/"><img src="https://snipboard.io/3IyORg.jpg"></a>
+    <a href="https://decodo.com/"><img src="https://github.com/user-attachments/assets/209d01f2-3931-4e77-a6f3-0028b1ee2b72"></a>
   </a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/Smartproxy/Smartproxy"> :house: Main Repository :house: </a>
+    <a href="https://github.com/Decodo/Decodo"> Main Repository </a>
 </p>
 
 ### Disclaimer
@@ -15,7 +15,7 @@ To continue further development with this tool, read the official Selenium [docu
 
 *Unfortunately, Selenium itself doesn't support `username:password` authentication for `HTTP/HTTPs` proxies; therefore, you'll need to have your IP whitelisted.*
 
-You can do that by following the guidelines listed [here](https://help.smartproxy.com/docs/proxy-authentication).
+You can do that by following the guidelines listed [here](https://help.decodo.com/docs/proxy-authentication).
 
 ### Prerequisites
 
@@ -36,11 +36,11 @@ cd selenium_ruby
 
 *Firefox*
 
-```curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/ruby/firefox/example.rb > example.rb```
+```curl https://raw.githubusercontent.com/Decodo/Selenium/master/ruby/firefox/example.rb > example.rb```
 
 *Chrome*
 
-```curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/ruby/chrome/example.rb > example.rb```
+```curl https://raw.githubusercontent.com/Decodo/Selenium/master/ruby/chrome/example.rb > example.rb```
 
 3. Your project folder should now be populated with the *example.rb* file.
 
@@ -48,7 +48,7 @@ cd selenium_ruby
 
 To configure the endpoint you would like to use, change the example endpoint within the punctuation marks ('') here:
 
-<img src="https://i.imgur.com/irXotBO.png" alt="smartproxy selenium ruby http proxy configuration example">
+<img src="https://i.imgur.com/irXotBO.png" alt="Decodo selenium ruby http proxy configuration example">
 
 ### Usage
 
@@ -59,5 +59,5 @@ A browser window will appear with the targeted website, and a proxy IP should be
 <img src="https://i.imgur.com/0pthFxs.png">
 
 ## Need help?
-Email - sales@smartproxy.com
+Email - sales@decodo.com
 <br><a href="https://direct.lc.chat/12092754/">Live chat 24/7</a>
