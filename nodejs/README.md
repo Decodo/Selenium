@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://smartproxy.com/"><img src="https://snipboard.io/3IyORg.jpg"></a>
+    <a href="https://decodo.com/"><img src="https://github.com/user-attachments/assets/209d01f2-3931-4e77-a6f3-0028b1ee2b72"></a>
   </a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/Smartproxy/Smartproxy"> :house: Main Repository :house: </a>
+    <a href="https://github.com/Decodo/Decodo"> Main Repository </a>
 </p>
 
 ### Disclaimer
@@ -15,7 +15,7 @@ To continue further development with this tool, make sure to read the official S
 
 *Unfortunately, Selenium itself doesn't support `username:password` authentication for `HTTP/HTTPs` proxies; therefore you'll need to have your IP whitelisted.*
 
-You can do that by following the guidelines listed [here](https://help.smartproxy.com/docs/residential-authentication-methods).
+You can do that by following the guidelines listed [here](https://help.decodo.com/docs/residential-authentication-methods).
 
 ### Prerequisites
 
@@ -54,11 +54,11 @@ npm install selenium-webdriver
 
 *Firefox*
 
-```curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/nodejs/firefox/example.js > example.js```
+```curl https://raw.githubusercontent.com/Decodo/Selenium/master/nodejs/firefox/example.js > example.js```
 
 *Chrome*
 
-```curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/nodejs/chrome/example.js > example.js```
+```curl https://raw.githubusercontent.com/Decodo/Selenium/master/nodejs/chrome/example.js > example.js```
 
 4. Your project folder should now be populated with the *example.js* file.
 
@@ -66,7 +66,7 @@ npm install selenium-webdriver
 
 To configure the example script with a different endpoint, simply edit the `let addr =` line in within punctuation marks('') as in the example:
 
-<img src="https://i.imgur.com/rBL5rWw.png" alt="smartproxy selenium node.js http proxy configuration example">
+<img src="https://i.imgur.com/rBL5rWw.png" alt="Decodo selenium node.js http proxy configuration example">
 
 ### Usage
 
@@ -77,5 +77,5 @@ A browser window will appear with the targeted website, and a proxy IP should be
 <img src="https://i.imgur.com/7Na6wEN.png">
 
 ## Need help?
-Email - sales@smartproxy.com
+Email - sales@decodo.com
 <br><a href="https://direct.lc.chat/12092754/">Live chat 24/7</a>
