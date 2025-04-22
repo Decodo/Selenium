@@ -16,12 +16,12 @@ class Program
         {
             Kind = ProxyKind.Manual,
             IsAutoDetect = false,
-            HttpProxy = "gate.smartproxy.com:7000"               //Proxy host:port configuration
+            HttpProxy = "gate.decodo.com:7000"               //Proxy host:port configuration
         };
         options.Proxy = proxy;
 
         IWebDriver driver = new FirefoxDriver(options);          //Initializes the configured Geckodriver
-        driver.Navigate().GoToUrl("http://ip.smartproxy.com/");  //Target website
+        driver.Navigate().GoToUrl("http://ip.decodo.com/");  //Target website
         var getBody = driver.FindElement(By.TagName("body"));    //Select desired Element from your target website
         var getBodyText = getBody.Text;
 
