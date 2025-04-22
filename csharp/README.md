@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://smartproxy.com/"><img src="https://snipboard.io/3IyORg.jpg"></a>
+    <a href="https://decodo.com/"><img src="https://github.com/user-attachments/assets/209d01f2-3931-4e77-a6f3-0028b1ee2b72"></a>
   </a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/Smartproxy/Smartproxy"> :house: Main Repository :house: </a>
+    <a href="https://github.com/Decodo/Decodo"> Main Repository </a>
 </p>
 
 ### Disclaimer
@@ -15,7 +15,7 @@ To continue further development with this tool, read the Selenium [documentation
 
 *Unfortunately, Selenium itself doesn't support `username:password` authentication for `HTTP/HTTPs` proxies; therefore you will need to have your IP whitelisted.*
 
-You can do that by following the guidelines listed [here](https://help.smartproxy.com/docs/residential-authentication-methods).
+You can do that by following the guidelines listed [here](https://help.decodo.com/docs/residential-authentication-methods).
 
 ### Prerequisites
 
@@ -41,16 +41,16 @@ You can run it using these steps:
 2. Navigate to the projects directory using the Terminal/Command Prompt.
 3. Run the cURL command to download the code or copy it directly from the repository by clicking on the preferred WebDriver hyperlink above.
 
-[*Firefox*](https://raw.githubusercontent.com/Smartproxy/Selenium/master/csharp/firefox/example.cs)
+[*Firefox*](https://raw.githubusercontent.com/Decodo/Selenium/master/csharp/firefox/example.cs)
 
 ```
-curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/csharp/firefox/example.cs > example.cs
+curl https://raw.githubusercontent.com/Decodo/Selenium/master/csharp/firefox/example.cs > example.cs
 ```
 
-[*Chrome*](https://raw.githubusercontent.com/Smartproxy/Selenium/master/csharp/chrome/example.cs)
+[*Chrome*](https://raw.githubusercontent.com/Decodo/Selenium/master/csharp/chrome/example.cs)
 
 ```
-curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/csharp/chrome/example.cs > example.cs
+curl https://raw.githubusercontent.com/Decodo/Selenium/master/csharp/chrome/example.cs > example.cs
 ```
 
 4. You should see a new file named example.cs in your project folder.
@@ -62,22 +62,20 @@ To configure the proxy, simply change the following string in the code depending
 *Firefox*
 
 ```
-HttpProxy = "gate.smartproxy.com:7000"
+HttpProxy = "gate.decodo.com:7000"
 ```
 
 *Chrome*
 ```
-HttpProxy = "http://gate.smartproxy.com:7000"
+HttpProxy = "http://gate.decodo.com:7000"
 ```
-
-<img src="https://i.imgur.com/R0CPyut.png" alt="smartproxy selenium csharp http proxy setup">
 
 ### Testing
 
 If everything is done correctly, the selected WebDriver will appear with a new IP from the proxy service after running the code. You'll also get a printed output of the IP in the Console:
 
-<img src="https://i.imgur.com/kQOZsn9.png">
+<img width="365" alt="image" src="https://github.com/user-attachments/assets/1b075865-56a6-4f1d-bc99-370eef2ac837" />
 
 ## Need help?
-Email - sales@smartproxy.com
+Email - sales@decodo.com
 <br><a href="https://direct.lc.chat/12092754/">Live chat 24/7</a>
