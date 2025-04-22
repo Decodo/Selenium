@@ -16,12 +16,12 @@ class Program
         {
             Kind = ProxyKind.Manual,
             IsAutoDetect = false,
-            HttpProxy = "http://gate.smartproxy.com:7000"       //Proxy host:port configuration
+            HttpProxy = "http://gate.decodo.com:7000"       //Proxy host:port configuration
         };
         options.Proxy = proxy;
 
         IWebDriver driver = new ChromeDriver(options);          //Initializes the configured Chromedriver
-        driver.Navigate().GoToUrl("http://ip.smartproxy.com/"); //Target website
+        driver.Navigate().GoToUrl("http://ip.decodo.com/"); //Target website
         var getBody = driver.FindElement(By.TagName("body"));   //Select desired Element from your target website
         var getBodyText = getBody.Text;
 
