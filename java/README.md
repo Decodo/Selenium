@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://smartproxy.com/"><img src="https://snipboard.io/3IyORg.jpg"></a>
+    <a href="https://decodo.com/"><img src="https://github.com/user-attachments/assets/209d01f2-3931-4e77-a6f3-0028b1ee2b72"></a>
   </a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/Smartproxy/Smartproxy"> :house: Main Repository :house: </a>
+    <a href="https://github.com/Decodo/Decodo"> Main Repository </a>
 </p>
 
 ### Disclaimer
@@ -15,7 +15,7 @@ To continue further development with this tool, read Selenium's official [docume
 
 *Unfortunately, Selenium itself doesn't support `username:password` authentication for `HTTP/HTTPs` proxies; therefore, you'll need to have your IP whitelisted.*
 
-You can do that by following the guidelines listed [here](https://help.smartproxy.com/docs/residential-authentication-methods).
+You can do that by following the guidelines listed [here](https://help.decodo.com/docs/residential-authentication-methods).
 
 ### Prerequisites
 
@@ -55,13 +55,13 @@ Make sure that you download the script according to which WebDriver you want to 
 *Firefox*
 
 ```
-curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/java/firefox/example.java > example.java
+curl https://raw.githubusercontent.com/Decodo/Selenium/master/java/firefox/example.java > example.java
 ```
 
 *Chrome*
 
 ```
-curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/java/chrome/example.java > example.java
+curl https://raw.githubusercontent.com/Decodo/Selenium/master/java/chrome/example.java > example.java
 ```
 
 ### Configuration
@@ -69,22 +69,22 @@ curl https://raw.githubusercontent.com/Smartproxy/Selenium/master/java/chrome/ex
 To configure the proxy, simply change the following strings in the code:
 
 ```
-String ProxyServer = "gate.smartproxy.com"; # Location you want to target
+String ProxyServer = "gate.decodo.com"; # Location you want to target
 int ProxyPort = 7000; # Port for session
 ```
 
-<img src="https://i.imgur.com/RfCa9xV.png" alt="smartproxy selenium java http proxy setup">
+<img src="https://i.imgur.com/RfCa9xV.png" alt="Decodo selenium java http proxy setup">
 
 ### Testing
 
 If everything is done correctly, the selected WebDriver will appear with a new IP from the proxy service after running the code:
 
-<img src="https://i.imgur.com/EUbzHh4.png">
+<img width="365" alt="image" src="https://github.com/user-attachments/assets/1b075865-56a6-4f1d-bc99-370eef2ac837" />
 
 You'll also get a printed output of the IP in the Console:
 
 <img src="https://i.imgur.com/tBbOAlA.png">
 
 ## Need help?
-Email - sales@smartproxy.com
+Email - sales@decodo.com
 <br><a href="https://direct.lc.chat/12092754/">Live chat 24/7</a>
