@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 import time
 
-HOSTNAME = 'us.smartproxy.com' #Proxy host:port configuration
+HOSTNAME = 'us.decodo.com' #Proxy host:port configuration
 PORT = '10000'
 DRIVER = 'CHROME' #Select 'CHROME' or 'FIREFOX'
 
@@ -31,7 +31,7 @@ def webdriver_example(): #Installs the latest selected webdriver and uses proxy 
     elif DRIVER == 'CHROME':
         browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()), 
                                    options=smartproxy())
-    browser.get('http://ip.smartproxy.com/ip') #Target URL
+    browser.get('http://ip.decodo.com/ip') #Target URL
     print(browser.page_source) #Prints out desired element of target URL
     browser.quit()
 
