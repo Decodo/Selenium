@@ -41,7 +41,7 @@ Once you have all of the prerequisites ready, create your project folder:
 ```
 mkdir your_project
 ```
-<img src="https://i.imgur.com/6US2PJs.png">
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/5a7d1566-57d2-41c1-98ae-10d916fa9881" />
 
 When the project directory is set up, you can now download our example script for Selenium.
 
@@ -73,7 +73,7 @@ String ProxyServer = "gate.decodo.com"; # Location you want to target
 int ProxyPort = 7000; # Port for session
 ```
 
-<img src="https://i.imgur.com/RfCa9xV.png" alt="Decodo selenium java http proxy setup">
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/28ca9532-646e-4dcd-9404-a414f61527b3" />
 
 ### Testing
 
