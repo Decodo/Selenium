@@ -32,7 +32,7 @@ mkdir your_project
 When the project directory is set up, you can download the script *example.py*:
 1. Navigate to the main directory of your project folder using `cd your_project`
 2. Download the script using the following command: `curl https://raw.githubusercontent.com/Decodo/Selenium/master/python/example.py > example.py`
-<img src="https://snipboard.io/4SdKnL.jpg">
+<img width="784" alt="image" src="https://github.com/user-attachments/assets/83d29568-7a89-4066-8ed8-bf575f0cbb40" />
 3. Your project folder should now be populated with the *example.py* file.
 
 
