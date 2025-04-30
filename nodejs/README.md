@@ -38,17 +38,17 @@ cd node_selenium
 npm init
 npm install selenium-webdriver
 ```
-<img src="https://i.imgur.com/53kgOXn.png">
+<img width="364" alt="image" src="https://github.com/user-attachments/assets/01f682e9-a429-4f9b-bc5b-5883c529cb4c" />
 
 2. When the project directory is set up, you'll need to install one of the WebDrivers from the [Prerequisites](#prerequisites) section.
 
 *Firefox*
 
-<img src="https://i.imgur.com/I9czv1a.png">
+<img width="312" alt="image" src="https://github.com/user-attachments/assets/4936486c-f432-4087-9647-13eda8bd7f17" />
 
 *Chrome*
 
-<img src="https://i.imgur.com/ALgnAQf.png">
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/10d9911a-f822-45ac-8dee-3c50aead3bc0" />
 
 3. Download the example script according to the WebDriver you are using with one of these commands: 
 
@@ -66,15 +66,13 @@ npm install selenium-webdriver
 
 To configure the example script with a different endpoint, simply edit the `let addr =` line in within punctuation marks('') as in the example:
 
-<img src="https://i.imgur.com/rBL5rWw.png" alt="Decodo selenium node.js http proxy configuration example">
-
-### Usage
+<img width="573" alt="image" src="https://github.com/user-attachments/assets/be0d025c-48ee-4290-b06b-2a65b7295e24" />
 
 You can test the script by running the `node example.js` command while in your project folder.
 
 A browser window will appear with the targeted website, and a proxy IP should be visible in the console output:
 
-<img src="https://i.imgur.com/7Na6wEN.png">
+<img width="684" alt="image" src="https://github.com/user-attachments/assets/e008dd28-7df3-4c6b-ab3e-94384b06e8b4" />
 
 ## Need help?
 Email - sales@decodo.com
