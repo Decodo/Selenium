@@ -30,7 +30,7 @@ You can do that by following the guidelines listed [here](https://help.decodo.co
 mkdir selenium_ruby
 cd selenium_ruby
 ```
-<img src="https://i.imgur.com/mylk9t7.png">
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/5b6c6d06-f5d0-4d14-aa9c-a9fcbbcb1feb" />
 
 2. When the project directory is set up, you can now download one of the example scripts for proxy setup with Selenium:
 
@@ -48,7 +48,7 @@ cd selenium_ruby
 
 To configure the endpoint you would like to use, change the example endpoint within the punctuation marks ('') here:
 
-<img src="https://i.imgur.com/irXotBO.png" alt="Decodo selenium ruby http proxy configuration example">
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/a3ccdf8e-c050-440a-b097-87027ffeb2f6" />
 
 ### Usage
 
@@ -56,7 +56,7 @@ You can test the script by running the `ruby example.rb` command while in your p
 
 A browser window will appear with the targeted website, and a proxy IP should be visible in the console output:
 
-<img src="https://i.imgur.com/0pthFxs.png">
+<img width="324" alt="image" src="https://github.com/user-attachments/assets/dadbe3c5-a9e3-41e3-9cfa-c43976fe1527" />
 
 ## Need help?
 Email - sales@decodo.com
