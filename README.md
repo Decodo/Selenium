@@ -27,7 +27,7 @@ To begin, you'll need proxy information from the [Decodo dashboard](https://dash
 5. Copy the endpoints.
 
 <p align="center">
-    <a href="https://Decodo.com/"><img src="https://i.imgur.com/M2J00E4.png"></a>
+    <a href="https://Decodo.com/"><img src="https://i.imgur.com/Gj5HXZo.png"></a>
 </p>
 
 ## Installation
